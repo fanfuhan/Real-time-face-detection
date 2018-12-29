@@ -1,0 +1,13 @@
+detect1-3单独运行：
+
+detect1.py : 使用MTCNN检测一张图片（1.jpg）
+detect2.py : 使用opencv自带的HAAR进行实时人脸检测
+detect3.py : 使用MTCNN进行实时人脸检测
+
+需要配置的环境：python+tensorflow+opencv
+
+MTCNN有明显的优势，检测成功率基本维持在100%
+
+det1-3 是网上预训练好的MTCNN模型
+
+detect_face.py 定义MTCNN模型
